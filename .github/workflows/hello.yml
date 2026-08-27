@@ -1,0 +1,17 @@
+name: Hello GitHub Actions
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello:
+     runs-on: ubuntu-latest
+     steps:
+       - name: print message
+         run: echo "Hello AK from github actions"
+       - name: show directory
+         run: pwd
+       - name: list files
+         run: ls -lta
