@@ -22,7 +22,7 @@ jobs:
        - name: check java
          run: java -version
 
-       - name: check maven
+       - name: check maven version
          run: mvn -version
 
        - run: ls -la
