@@ -5,13 +5,12 @@ on:
     branches:
       - main
 
-  pull_requests:
-      branches:
-       - main
+  # pull_requests:
+  #     branches:
+  #      - main
 
 
 jobs:
-
   build:
     
      runs_on: ubuntu:latest
